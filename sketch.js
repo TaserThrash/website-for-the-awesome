@@ -256,6 +256,7 @@ function bounce() {
     let nextY = variables[1] + variables[3] * timeToNextBounce;
 
     push();
+    strokeWeight(2);
     translate(200, 200);
     colorMode(HSB);
     stroke(variables[4], 255, 255); // Use stroke for lines
